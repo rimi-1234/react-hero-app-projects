@@ -1,10 +1,10 @@
 [
-  {
+   {
     "image": "https://i.ibb.co.com/zVwDyys6/ChatWave.png",
     "title": "ChatWave: Secure Messenger",
     "companyName": "WaveTech Inc.",
     "id": 21,
-    "description": "ChatWave is a modern, privacy-focused messaging app that enables users to send text, voice, and video messages securely. It supports end-to-end encryption, group chats, media sharing, and cloud backup, ensuring safe and seamless communication across devices.",
+    "description": "ChatWave is a modern, privacy-focused messaging app that enables users to send text, voice, and video messages securely.\nIt supports end-to-end encryption to protect user communication.\nGroup chats allow multiple participants to communicate together.\nMedia sharing supports images, videos, and documents.\nCloud backup ensures messages are never lost.\nCross-device synchronization keeps chat history consistent.\nVoice messages provide a quick way to communicate.\nHigh-quality video calls make face-to-face interaction easy.\nCustomizable notifications help manage alerts.\nDisappearing messages improve privacy.\nStickers, emojis, and GIFs add fun to conversations.\nPrivacy settings let users control who sees their info.\nOffline messaging queues messages for later delivery.\nLightweight design saves battery and data usage.\nIntegrates with other apps for workflow efficiency.\nPerformance optimizations keep the app fast.\nRegular updates bring new features and improvements.\nUser feedback is incorporated to improve usability.\nSimple and intuitive interface for all ages.\nSupports multiple languages for global use.",
     "size": 120,
     "reviews": "42K",
     "ratingAvg": 4.6,
@@ -22,7 +22,7 @@
     "title": "WhatsApp Messenger: Chat & Call",
     "companyName": "Meta Platforms",
     "id": 1,
-    "description": "WhatsApp Messenger is a free messaging and voice-over-IP service that allows users to send texts, make video calls, and share media securely with end-to-end encryption.",
+    "description": "WhatsApp Messenger allows sending text, voice, and video messages securely.\nEnd-to-end encryption ensures all communication is private.\nGroup chats support large communities.\nMedia sharing includes photos, videos, and files.\nVoice notes allow quick audio messaging.\nStatus updates enable sharing daily moments.\nWhatsApp Web allows using the app from a browser.\nCustom notifications help prioritize messages.\nArchived chats keep conversations organized.\nStarred messages let users mark important chats.\nTwo-step verification enhances account security.\nContacts are synced automatically.\nForwarding and quoting messages improve communication.\nAuto-download media saves time and bandwidth.\nSupports multiple languages for global users.\nDark mode reduces eye strain.\nBusiness accounts facilitate customer engagement.\nCloud backup ensures data is safe.\nRegular updates bring new features and bug fixes.\nUser-friendly interface for all age groups.",
     "size": 120,
     "reviews": "500K",
     "ratingAvg": 4.5,
@@ -40,7 +40,7 @@
     "title": "Facebook: Connect & Share",
     "companyName": "Meta Platforms",
     "id": 2,
-    "description": "Facebook helps people connect, share photos and videos, join groups, and stay updated with friends and global events.",
+    "description": "Facebook helps people connect, share photos and videos, and interact with friends.\nGroups allow users to create communities.\nPages help businesses engage with customers.\nMessenger provides private messaging and video calls.\nMarketplace allows buying and selling items.\nEvents help users organize and discover activities.\nNews Feed shows personalized content.\nWatch tab provides video content.\nLive streaming allows real-time broadcasting.\nStories feature lets users share daily moments.\nFriend suggestions help expand social networks.\nNotifications alert users of updates.\nPrivacy settings control who sees posts.\nContent discovery is personalized.\nMulti-device access ensures seamless experience.\nDark mode reduces eye strain.\nInsights and analytics help page admins.\nReactions enhance communication.\nSearch allows finding friends and content.\nRegular updates improve performance and security.",
     "size": 250,
     "reviews": "800K",
     "ratingAvg": 4.2,
@@ -53,12 +53,12 @@
       { "name": "5 star", "count": 500000 }
     ]
   },
-  {
+   {
     "image": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png",
     "title": "Instagram: Photo & Video Sharing",
     "companyName": "Meta Platforms",
     "id": 3,
-    "description": "Instagram lets users post stories, reels, and live videos while exploring trending content from creators worldwide.",
+    "description": "Instagram lets users post stories, reels, and live videos.\nExplore trending content from creators worldwide.\nDirect messaging allows private conversations.\nIGTV supports long-form video content.\nPhoto and video editing tools enhance posts.\nFilters and effects improve visual appeal.\nHashtags increase content discoverability.\nExplore page shows personalized recommendations.\nReels feature supports short viral videos.\nStories disappear after 24 hours.\nShopping feature allows in-app purchases.\nBusiness accounts provide insights and ads.\nMultiple account management for convenience.\nLive streaming supports real-time interaction.\nSaved posts allow bookmarking favorites.\nNotifications alert users of engagement.\nAnalytics for creators and businesses.\nDark mode reduces eye strain.\nCross-platform access ensures flexibility.\nRegular updates introduce new features and security improvements.",
     "size": 150,
     "reviews": "600K",
     "ratingAvg": 4.3,
@@ -76,7 +76,7 @@
     "title": "Snapchat: Multimedia Messaging",
     "companyName": "Snap Inc.",
     "id": 4,
-    "description": "Snapchat allows users to send short-lived pictures and videos with fun filters, lenses, Bitmojis, and chat features for private communication.",
+    "description": "Snapchat allows sending short-lived pictures and videos.\nFun filters and lenses enhance selfies.\nBitmojis provide personalized avatars.\nStories let users share daily moments.\nDiscover tab shows trending content.\nPrivate chats allow secure messaging.\nGroup chats support multiple participants.\nSnap Map shows friends' locations (optional).\nStickers, GIFs, and emojis add fun.\nVideo and voice calls supported.\nMemories feature stores snaps securely.\nCamera-first interface for easy capture.\nCustomizable notifications manage alerts.\nFriend suggestions help expand networks.\nSnap Originals provide exclusive content.\nSearch functionality to find content and friends.\nPrivacy controls manage visibility.\nMulti-device login ensures access anywhere.\nRegular updates improve app features and security.\nDark mode reduces eye strain and saves battery.",
     "size": 180,
     "reviews": "400K",
     "ratingAvg": 4.0,
@@ -94,7 +94,7 @@
     "title": "Twitter: News & Social Networking",
     "companyName": "Twitter Inc.",
     "id": 5,
-    "description": "Twitter allows users to post and interact with short messages called 'tweets.' It's widely used for real-time news, discussions, and trends.",
+    "description": "Twitter allows posting short messages called tweets.\nUsers can follow friends and public figures.\nRetweets and likes allow engagement.\nTrending topics highlight global conversations.\nHashtags categorize content.\nDirect messages support private chats.\nLists help organize accounts.\nSpaces offer live audio discussions.\nTopics feature shows personalized interests.\nMedia support includes images and videos.\nPolls engage followers.\nNotifications alert users of activity.\nMoments showcase curated stories.\nBookmarks save important tweets.\nAnalytics track engagement.\nDark mode reduces eye strain.\nMulti-account support enhances flexibility.\nVerified accounts provide authenticity.\nSafety tools control abuse and spam.\nRegular updates improve features and performance.",
     "size": 200,
     "reviews": "700K",
     "ratingAvg": 4.1,
@@ -112,7 +112,7 @@
     "title": "Telegram Messenger: Secure Chat",
     "companyName": "Telegram Messenger LLP",
     "id": 6,
-    "description": "Telegram is a cloud-based messaging service known for security, speed, and group chat capabilities with end-to-end encryption.",
+    "description": "Telegram is a cloud-based messaging service.\nOffers speed and security.\nSupports end-to-end encrypted secret chats.\nGroup chats for thousands of members.\nChannels allow broadcasting to unlimited audience.\nFile sharing up to 2GB.\nVoice and video calls supported.\nBots enhance automation.\nCustomizable themes for personalization.\nMulti-device access with sync.\nStickers and GIFs add fun.\nScheduled messages help planning.\nPolls and quizzes in groups.\nCloud storage keeps data safe.\nUsername feature allows contact without phone numbers.\nTwo-step verification enhances security.\nSelf-destructing messages for privacy.\nPowerful search functionality.\nNotifications customizable per chat.\nRegular updates enhance performance and security.",
     "size": 100,
     "reviews": "350K",
     "ratingAvg": 4.6,
@@ -130,7 +130,7 @@
     "title": "TikTok: Short Videos & Trends",
     "companyName": "ByteDance Ltd.",
     "id": 7,
-    "description": "TikTok allows users to create and share entertaining short clips with music, filters, and effects, known for viral trends.",
+    "description": "TikTok allows creating and sharing short videos.\nMusic and sound effects enhance creativity.\nFilters and AR effects for visuals.\nDuet and Stitch features enable collaboration.\nFor You page shows personalized content.\nTrending hashtags increase visibility.\nLive streaming allows real-time interaction.\nVideo editing tools available in-app.\nPrivate messaging allows user interaction.\nAnalytics provide insights for creators.\nNotifications keep users updated.\nFollowers and likes track engagement.\nDiscover page shows trends.\nSaving and sharing videos supported.\nMultiple account support.\nDark mode available.\nSecure login with multi-factor authentication.\nCommunity guidelines promote safety.\nChallenges and trends encourage participation.\nRegular updates improve app performance and features.",
     "size": 180,
     "reviews": "900K",
     "ratingAvg": 4.4,
@@ -148,7 +148,7 @@
     "title": "Signal: Private Messenger",
     "companyName": "Signal Foundation",
     "id": 8,
-    "description": "Signal provides private messaging with end-to-end encryption, voice and video calls, and secure media sharing across devices.",
+    "description": "Signal provides private messaging with end-to-end encryption.\nVoice and video calls are secure.\nMedia sharing supported.\nDisappearing messages enhance privacy.\nGroup chats for secure collaboration.\nCustom notifications available.\nScreen security prevents screenshot capture.\nMinimal data collection.\nCross-device sync available.\nEncrypted backups ensure safety.\nDark mode reduces eye strain.\nSimple and intuitive interface.\nOpen source software.\nSecure link sharing supported.\nStickers and emojis included.\nOffline messaging queues messages.\nHigh-quality media transmission.\nRegular updates for security improvements.\nTwo-step verification supported.\nGlobal language support.",
     "size": 110,
     "reviews": "150K",
     "ratingAvg": 4.7,
@@ -161,12 +161,12 @@
       { "name": "5 star", "count": 120000 }
     ]
   },
-  {
+    {
     "image": "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png",
     "title": "LinkedIn: Professional Networking",
     "companyName": "LinkedIn Corporation",
     "id": 9,
-    "description": "LinkedIn is a professional networking platform that helps people connect, share industry news, and find job opportunities.",
+    "description": "LinkedIn is a professional networking platform.\nHelps users connect with colleagues and industry peers.\nShare industry news and updates.\nFind job opportunities.\nCreate a professional profile and resume.\nReceive endorsements and recommendations.\nJoin and participate in groups.\nPublish articles and posts.\nFollow companies for updates.\nSet job alerts and notifications.\nNetwork with alumni and professional contacts.\nShowcase skills and projects.\nApply for jobs directly via the platform.\nMessaging allows professional communication.\nLearning courses enhance skills.\nAnalytics track profile and post performance.\nMulti-language support available.\nCareer insights provide market trends.\nDark mode available for comfort.\nRegular updates improve usability and security.",
     "size": 200,
     "reviews": "300K",
     "ratingAvg": 4.3,
@@ -180,11 +180,11 @@
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Pinterest-logo.png",
+    "image": "https://i.ibb.co.com/TBqZvrbH/pinterest.png",
     "title": "Pinterest: Discover & Share Ideas",
     "companyName": "Pinterest Inc.",
     "id": 10,
-    "description": "Pinterest allows users to discover and save creative ideas for home, fashion, recipes, and more through pins and boards.",
+    "description": "Pinterest allows users to discover and save ideas.\nSupports home, fashion, recipes, and DIY.\nPins can be organized into boards.\nFollow boards and users.\nSearch functionality helps find inspiration.\nShopping feature allows buying products.\nVideo pins enhance creativity.\nIdea exploration tailored to user interests.\nPersonalized feed shows relevant content.\nCreate private or public boards.\nCollaboration boards for teams.\nShare pins with friends and family.\nAnalytics track engagement for creators.\nDark mode available for comfort.\nNotifications keep users updated.\nBookmark favorite pins.\nApp supports multiple languages.\nHigh-resolution images for quality.\nRegular updates improve features and security.\nCross-platform sync ensures access anywhere.",
     "size": 150,
     "reviews": "250K",
     "ratingAvg": 4.5,
@@ -198,11 +198,11 @@
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/4/42/Youtube_icon.png",
+    "image": "https://i.ibb.co.com/HptDJ636/youtube-logo-1.png",
     "title": "YouTube: Watch & Share Videos",
     "companyName": "Google LLC",
     "id": 11,
-    "description": "YouTube allows users to watch, upload, and share videos on a variety of topics including entertainment, education, and news.",
+    "description": "YouTube allows users to watch and share videos.\nUpload content in various formats.\nCreate playlists and subscribe to channels.\nComment, like, and share videos.\nLive streaming supported.\nContent categories include entertainment, education, news.\nMonetization options for creators.\nAnalytics provide engagement insights.\nNotifications alert new content.\nDark mode available.\nPlay videos offline with premium.\nSupports high-resolution playback.\nCreate community posts.\nPlaylists for organization.\nTrending page shows popular videos.\nKids mode for safe viewing.\nYouTube Shorts for quick videos.\nMusic and premium subscriptions available.\nSearch functionality helps find videos.\nRegular updates improve features and security.",
     "size": 300,
     "reviews": "1.2M",
     "ratingAvg": 4.6,
@@ -216,11 +216,11 @@
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Reddit_logo.png",
+    "image": "https://i.ibb.co.com/d4ndGMP1/Reddit.png",
     "title": "Reddit: News & Community",
     "companyName": "Reddit Inc.",
     "id": 12,
-    "description": "Reddit is a community platform where users can discuss topics, share content, and vote on posts across thousands of subreddits.",
+    "description": "Reddit is a community platform for discussions.\nThousands of subreddits cover every topic.\nUpvote and downvote posts to show popularity.\nComment to join conversations.\nShare text, links, images, and videos.\nCreate your own subreddit.\nFollow favorite communities.\nPrivate messaging allows direct communication.\nReddit Gold and premium memberships enhance experience.\nModeration tools manage content.\nPersonalized feed shows relevant posts.\nNotifications alert replies and mentions.\nAMA (Ask Me Anything) sessions with celebrities.\nCross-platform access.\nDark mode reduces eye strain.\nSearch functionality to find posts and communities.\nMulti-language support available.\nSaved posts for future reference.\nAnalytics for content creators.\nRegular updates improve features and security.",
     "size": 180,
     "reviews": "400K",
     "ratingAvg": 4.4,
@@ -234,11 +234,11 @@
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/3/32/Skype_logo.png",
+    "image": "https://i.ibb.co.com/pD3DPS5/Skype-for-Business-Server-Logo-wine.png",
     "title": "Skype: Video & Voice Call",
     "companyName": "Microsoft",
     "id": 13,
-    "description": "Skype allows users to make video and voice calls, send messages, and share files across devices.",
+    "description": "Skype allows video and voice calls.\nSend instant messages.\nShare files and documents.\nGroup calls and meetings supported.\nScreen sharing for collaboration.\nSMS messaging available.\nTranslate feature supports multiple languages.\nNotifications for messages and calls.\nCross-platform access.\nIntegration with Microsoft products.\nEmojis, GIFs, and reactions supported.\nCall recording feature available.\nHigh-quality video and audio.\nSecurity encryption for calls.\nDark mode available.\nContacts management.\nCall forwarding and voicemail.\nCustom ringtones and alerts.\nRegular updates improve performance and security.\nUser-friendly interface for all ages.",
     "size": 200,
     "reviews": "500K",
     "ratingAvg": 4.2,
@@ -252,11 +252,11 @@
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Zoom_Communications_Logo.svg",
+    "image": "https://i.ibb.co.com/Lh6YwJz3/Zoom.png",
     "title": "Zoom: Video Meetings",
     "companyName": "Zoom Video Communications",
     "id": 14,
-    "description": "Zoom is a video conferencing tool that allows online meetings, webinars, and chat with real-time collaboration features.",
+    "description": "Zoom enables online meetings and webinars.\nSupports video and audio conferencing.\nScreen sharing and annotation.\nBreakout rooms for collaboration.\nRecording meetings available.\nVirtual backgrounds supported.\nChat functionality included.\nPolling and Q&A tools.\nIntegration with calendars and apps.\nWaiting rooms enhance security.\nHost controls manage participants.\nEnd-to-end encryption.\nMeeting scheduling options.\nNotifications alert for upcoming meetings.\nMulti-device access.\nGallery view for participants.\nLive transcription and captions.\nCustomizable layouts.\nAnalytics track attendance.\nRegular updates improve functionality and security.",
     "size": 220,
     "reviews": "600K",
     "ratingAvg": 4.3,
@@ -270,11 +270,11 @@
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Discord_logo.svg",
+    "image": "https://i.ibb.co.com/4xRksy8/Gaming.png",
     "title": "Discord: Chat & Community",
     "companyName": "Discord Inc.",
     "id": 15,
-    "description": "Discord is a communication platform for communities, allowing chat, voice, video calls, and server-based organization for groups.",
+    "description": "Discord is a communication platform for communities.\nSupports text, voice, and video chat.\nServer-based organization.\nChannels for topic-specific discussions.\nRoles and permissions manage users.\nDirect messaging and group DMs.\nScreen sharing and live streaming.\nBots and integrations enhance servers.\nCustom emojis for personalization.\nNotifications configurable per server.\nVoice channels for real-time conversation.\nVideo calls and screen sharing.\nMulti-platform access.\nNitro subscription offers enhancements.\nFile sharing within servers.\nServer discovery for joining communities.\nModeration tools available.\nSearch functionality included.\nDark mode reduces eye strain.\nRegular updates improve features and security.",
     "size": 180,
     "reviews": "550K",
     "ratingAvg": 4.5,
@@ -288,11 +288,11 @@
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Clubhouse_App_icon.png",
+    "image": "https://i.ibb.co.com/gbFPsgJ8/voice.png",
     "title": "Clubhouse: Voice Chat Rooms",
     "companyName": "Alpha Exploration Co.",
     "id": 16,
-    "description": "Clubhouse is an audio-based social networking app where users can join live discussions, chat rooms, and networking sessions.",
+    "description": "Clubhouse is an audio-based social networking app.\nUsers can join live discussion rooms.\nParticipate in voice-only chats.\nFollow speakers and clubs.\nCreate private or public rooms.\nInvite friends to rooms.\nListen to live conversations on various topics.\nNetworking opportunities with professionals.\nModerators control room interactions.\nRaise hand feature for questions.\nScheduled events and rooms.\nClubs can host recurring discussions.\nNotifications alert about favorite rooms.\nSearch for rooms and clubs.\nDark mode available.\nRecordings for replay in some rooms.\nSupports multiple languages.\nHigh-quality audio streaming.\nInsights and analytics for creators.\nRegular updates improve security and features.",
     "size": 160,
     "reviews": "200K",
     "ratingAvg": 4.2,
@@ -306,11 +306,11 @@
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Google_Meet_icon.png",
+    "image": "https://i.ibb.co.com/fVYbP05x/png-transparent-google-meet-camera-logo-icon.png",
     "title": "Google Meet: Video Conferencing",
     "companyName": "Google LLC",
     "id": 17,
-    "description": "Google Meet provides secure video conferencing for business and personal use, with real-time collaboration and screen sharing.",
+    "description": "Google Meet provides secure video conferencing.\nSupports business and personal use.\nReal-time collaboration features.\nScreen sharing available.\nIntegration with Google Workspace.\nChat during meetings.\nBackground blur and effects.\nHost controls and meeting management.\nRecord meetings for later review.\nBreakout rooms for group work.\nCaptions in multiple languages.\nMeeting scheduling with calendar integration.\nMulti-device support.\nDark mode available.\nNotifications for meeting alerts.\nSecurity features for safe meetings.\nAnalytics for participant activity.\nEasy joining via links.\nSupport for up to 250 participants.\nRegular updates improve features and performance.",
     "size": 200,
     "reviews": "350K",
     "ratingAvg": 4.4,
@@ -324,11 +324,11 @@
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/3/37/Microsoft_Teams_logo.svg",
+    "image": "https://i.ibb.co.com/svGnHZ8s/microsoft.png",
     "title": "Microsoft Teams: Collaboration & Chat",
     "companyName": "Microsoft",
     "id": 18,
-    "description": "Microsoft Teams is a collaboration platform combining chat, video meetings, file storage, and app integration for workplaces.",
+    "description": "Microsoft Teams combines chat, meetings, and collaboration.\nSupports messaging within teams.\nVideo and audio conferencing available.\nFile storage and sharing.\nApp integration for productivity.\nTask assignment and management.\nCollaboration on documents in real-time.\nBreakout rooms for workshops.\nNotifications and activity feed.\nCustomizable team channels.\nDark mode support.\nMulti-device accessibility.\nSecurity and compliance features.\nSearch functionality for messages and files.\nRecording meetings for later review.\nSupports external guest access.\nAnalytics for team performance.\nIntegration with Microsoft 365 tools.\nScheduling and calendar integration.\nRegular updates for new features and security.",
     "size": 250,
     "reviews": "450K",
     "ratingAvg": 4.3,
@@ -346,7 +346,7 @@
     "title": "Slack: Team Messaging & Collaboration",
     "companyName": "Slack Technologies",
     "id": 19,
-    "description": "Slack is a business communication platform for team collaboration, featuring messaging, file sharing, and workflow automation.",
+    "description": "Slack is a business communication platform.\nSupports messaging in channels.\nDirect messaging for team members.\nFile sharing and storage.\nWorkflow automation through apps and bots.\nIntegration with third-party tools.\nVideo and voice calls within channels.\nCustomizable notifications.\nThreaded conversations for organization.\nSearch functionality to find messages and files.\nDark mode available.\nAnalytics for team communication.\nApp available on multiple platforms.\nSecurity and encryption supported.\nEmoji reactions and custom emojis.\nPinned messages for important info.\nBookmarking and saved items.\nGuest access for external collaborators.\nScheduled reminders for tasks.\nRegular updates improve usability and security.",
     "size": 200,
     "reviews": "500K",
     "ratingAvg": 4.5,
@@ -357,24 +357,6 @@
       { "name": "3 star", "count": 15000 },
       { "name": "4 star", "count": 90000 },
       { "name": "5 star", "count": 332000 }
-    ]
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Spotify_icon.png",
-    "title": "Spotify: Music & Podcasts",
-    "companyName": "Spotify Ltd.",
-    "id": 20,
-    "description": "Spotify is a digital music and podcast streaming service providing access to millions of tracks and personalized playlists.",
-    "size": 180,
-    "reviews": "1M",
-    "ratingAvg": 4.6,
-    "downloads": "1B",
-    "ratings": [
-      { "name": "1 star", "count": 10000 },
-      { "name": "2 star", "count": 15000 },
-      { "name": "3 star", "count": 25000 },
-      { "name": "4 star", "count": 200000 },
-      { "name": "5 star", "count": 750000 }
     ]
   }
 ]

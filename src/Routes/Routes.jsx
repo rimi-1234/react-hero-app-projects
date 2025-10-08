@@ -4,6 +4,7 @@ import Home from '../Pages/Home/Home';
 
 import Apps from '../Pages/Apps/Apps';
 import LoadingSpinner from '../Components/LoadingSpinner/LoadingSpinner';
+import SingleAppdetail from '../Components/SingleAppdetail/SingleAppdetail';
 
 export const router = createBrowserRouter([
     {
@@ -33,6 +34,17 @@ export const router = createBrowserRouter([
                     await new Promise(r => setTimeout(r, 1000)); // simulate async delay
                     return null;
                 },
+
+            },
+            {
+
+                path: "/apps/:id",
+                Component: SingleAppdetail,
+                 loader: async () => {
+                    await new Promise(r => setTimeout(r, 1000)); // simulate async delay
+                    return null;
+                },
+         
 
             },
 
