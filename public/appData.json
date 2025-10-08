@@ -1,200 +1,380 @@
 [
   {
+    "image": "https://i.ibb.co.com/zVwDyys6/ChatWave.png",
+    "title": "ChatWave: Secure Messenger",
+    "companyName": "WaveTech Inc.",
+    "id": 21,
+    "description": "ChatWave is a modern, privacy-focused messaging app that enables users to send text, voice, and video messages securely. It supports end-to-end encryption, group chats, media sharing, and cloud backup, ensuring safe and seamless communication across devices.",
+    "size": 120,
+    "reviews": "42K",
+    "ratingAvg": 4.6,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 2000 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 12000 },
+      { "name": "5 star", "count": 32000 }
+    ]
+  },
+  {
     "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg",
-    "title": "WhatsApp Messenger",
+    "title": "WhatsApp Messenger: Chat & Call",
     "companyName": "Meta Platforms",
     "id": 1,
-    "description": "A free messaging app that lets you send text messages, voice messages, images, and videos.",
+    "description": "WhatsApp Messenger is a free messaging and voice-over-IP service that allows users to send texts, make video calls, and share media securely with end-to-end encryption.",
     "size": 120,
-    "reviews": 500000,
+    "reviews": "500K",
     "ratingAvg": 4.5,
-    "downloads": 5000000000,
+    "downloads": "5B",
     "ratings": [
-      {"name": "1 star", "count": 5000},
-      {"name": "2 star", "count": 10000},
-      {"name": "3 star", "count": 20000},
-      {"name": "4 star", "count": 100000},
-      {"name": "5 star", "count": 400000}
+      { "name": "1 star", "count": 5000 },
+      { "name": "2 star", "count": 10000 },
+      { "name": "3 star", "count": 20000 },
+      { "name": "4 star", "count": 100000 },
+      { "name": "5 star", "count": 400000 }
     ]
   },
   {
     "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg",
-    "title": "Facebook",
+    "title": "Facebook: Connect & Share",
     "companyName": "Meta Platforms",
     "id": 2,
-    "description": "Connect with friends and the world around you on Facebook.",
+    "description": "Facebook helps people connect, share photos and videos, join groups, and stay updated with friends and global events.",
     "size": 250,
-    "reviews": 800000,
+    "reviews": "800K",
     "ratingAvg": 4.2,
-    "downloads": 10000000000,
+    "downloads": "10B",
     "ratings": [
-      {"name": "1 star", "count": 10000},
-      {"name": "2 star", "count": 20000},
-      {"name": "3 star", "count": 30000},
-      {"name": "4 star", "count": 200000},
-      {"name": "5 star", "count": 500000}
+      { "name": "1 star", "count": 10000 },
+      { "name": "2 star", "count": 20000 },
+      { "name": "3 star", "count": 30000 },
+      { "name": "4 star", "count": 200000 },
+      { "name": "5 star", "count": 500000 }
     ]
   },
   {
     "image": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png",
-    "title": "Instagram",
+    "title": "Instagram: Photo & Video Sharing",
     "companyName": "Meta Platforms",
     "id": 3,
-    "description": "A photo and video-sharing social networking service.",
+    "description": "Instagram lets users post stories, reels, and live videos while exploring trending content from creators worldwide.",
     "size": 150,
-    "reviews": 600000,
+    "reviews": "600K",
     "ratingAvg": 4.3,
-    "downloads": 10000000000,
+    "downloads": "10B",
     "ratings": [
-      {"name": "1 star", "count": 8000},
-      {"name": "2 star", "count": 15000},
-      {"name": "3 star", "count": 25000},
-      {"name": "4 star", "count": 150000},
-      {"name": "5 star", "count": 400000}
+      { "name": "1 star", "count": 8000 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "3 star", "count": 25000 },
+      { "name": "4 star", "count": 150000 },
+      { "name": "5 star", "count": 400000 }
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Snapchat_logo_2020.svg",
-    "title": "Snapchat",
+    "image": "https://i.ibb.co.com/DPp8Sr4C/Snapchat-Logo-wine.png",
+    "title": "Snapchat: Multimedia Messaging",
     "companyName": "Snap Inc.",
     "id": 4,
-    "description": "A multimedia messaging app used to share photos and videos.",
+    "description": "Snapchat allows users to send short-lived pictures and videos with fun filters, lenses, Bitmojis, and chat features for private communication.",
     "size": 180,
-    "reviews": 400000,
+    "reviews": "400K",
     "ratingAvg": 4.0,
-    "downloads": 5000000000,
+    "downloads": "5B",
     "ratings": [
-      {"name": "1 star", "count": 12000},
-      {"name": "2 star", "count": 18000},
-      {"name": "3 star", "count": 22000},
-      {"name": "4 star", "count": 150000},
-      {"name": "5 star", "count": 300000}
+      { "name": "1 star", "count": 12000 },
+      { "name": "2 star", "count": 18000 },
+      { "name": "3 star", "count": 22000 },
+      { "name": "4 star", "count": 150000 },
+      { "name": "5 star", "count": 300000 }
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Twitter_Logo_as_of_2021.svg",
-    "title": "Twitter",
+    "image": "https://i.ibb.co.com/Kpfj7j52/twitter-logo-png.png",
+    "title": "Twitter: News & Social Networking",
     "companyName": "Twitter Inc.",
     "id": 5,
-    "description": "A platform for public self-expression and conversation in real time.",
+    "description": "Twitter allows users to post and interact with short messages called 'tweets.' It's widely used for real-time news, discussions, and trends.",
     "size": 200,
-    "reviews": 700000,
+    "reviews": "700K",
     "ratingAvg": 4.1,
-    "downloads": 5000000000,
+    "downloads": "5B",
     "ratings": [
-      {"name": "1 star", "count": 10000},
-      {"name": "2 star", "count": 15000},
-      {"name": "3 star", "count": 25000},
-      {"name": "4 star", "count": 200000},
-      {"name": "5 star", "count": 450000}
+      { "name": "1 star", "count": 10000 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "3 star", "count": 25000 },
+      { "name": "4 star", "count": 200000 },
+      { "name": "5 star", "count": 450000 }
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Telegram_2019_Logo.svg",
-    "title": "Telegram Messenger",
+    "image": "https://i.ibb.co.com/TxYT5NCg/telegram-logo-telegram-icon-transparent-free-png.webp",
+    "title": "Telegram Messenger: Secure Chat",
     "companyName": "Telegram Messenger LLP",
     "id": 6,
-    "description": "A cloud-based instant messaging, video telephony, and VoIP service.",
+    "description": "Telegram is a cloud-based messaging service known for security, speed, and group chat capabilities with end-to-end encryption.",
     "size": 100,
-    "reviews": 350000,
+    "reviews": "350K",
     "ratingAvg": 4.6,
-    "downloads": 1000000000,
+    "downloads": "1B",
     "ratings": [
-      {"name": "1 star", "count": 3000},
-      {"name": "2 star", "count": 5000},
-      {"name": "3 star", "count": 8000},
-      {"name": "4 star", "count": 50000},
-      {"name": "5 star", "count": 290000}
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 8000 },
+      { "name": "4 star", "count": 50000 },
+      { "name": "5 star", "count": 290000 }
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png",
-    "title": "YouTube",
-    "companyName": "Google LLC",
+    "image": "https://i.ibb.co.com/8nSyL1SX/png-transparent-tiktok-tiktok-logo-tiktok-icon-thumbnail.png",
+    "title": "TikTok: Short Videos & Trends",
+    "companyName": "ByteDance Ltd.",
     "id": 7,
-    "description": "A video-sharing platform where users can watch, like, share, comment, and upload their own videos.",
-    "size": 250,
-    "reviews": 1000000,
-    "ratingAvg": 4.4,
-    "downloads": 10000000000,
-    "ratings": [
-      {"name": "1 star", "count": 15000},
-      {"name": "2 star", "count": 25000},
-      {"name": "3 star", "count": 35000},
-      {"name": "4 star", "count": 200000},
-      {"name": "5 star", "count": 700000}
-    ]
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/LinkedIn_Logo_2011.png",
-    "title": "LinkedIn",
-    "companyName": "Microsoft",
-    "id": 8,
-    "description": "A business and employment-oriented online service.",
+    "description": "TikTok allows users to create and share entertaining short clips with music, filters, and effects, known for viral trends.",
     "size": 180,
-    "reviews": 500000,
-    "ratingAvg": 4.3,
-    "downloads": 1000000000,
+    "reviews": "900K",
+    "ratingAvg": 4.4,
+    "downloads": "3B",
     "ratings": [
-      {"name": "1 star", "count": 5000},
-      {"name": "2 star", "count": 8000},
-      {"name": "3 star", "count": 15000},
-      {"name": "4 star", "count": 100000},
-      {"name": "5 star", "count": 400000}
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 25000 },
+      { "name": "3 star", "count": 50000 },
+      { "name": "4 star", "count": 250000 },
+      { "name": "5 star", "count": 550000 }
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Netflix_2015_logo.svg",
-    "title": "Netflix",
-    "companyName": "Netflix Inc.",
+    "image": "https://i.ibb.co.com/wNH1dDLD/image.png",
+    "title": "Signal: Private Messenger",
+    "companyName": "Signal Foundation",
+    "id": 8,
+    "description": "Signal provides private messaging with end-to-end encryption, voice and video calls, and secure media sharing across devices.",
+    "size": 110,
+    "reviews": "150K",
+    "ratingAvg": 4.7,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 3000 },
+      { "name": "3 star", "count": 5000 },
+      { "name": "4 star", "count": 25000 },
+      { "name": "5 star", "count": 120000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png",
+    "title": "LinkedIn: Professional Networking",
+    "companyName": "LinkedIn Corporation",
     "id": 9,
-    "description": "A streaming service offering a wide variety of award-winning TV shows, movies, anime, documentaries, and more.",
-    "size": 300,
-    "reviews": 600000,
-    "ratingAvg": 4.5,
-    "downloads": 1000000000,
-    "ratings": [
-      {"name": "1 star", "count": 8000},
-      {"name": "2 star", "count": 12000},
-      {"name": "3 star", "count": 20000},
-      {"name": "4 star", "count": 150000},
-      {"name": "5 star", "count": 400000}
-    ]
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Spotify_icon.svg",
-    "title": "Spotify",
-    "companyName": "Spotify Ltd.",
-    "id": 10,
-    "description": "A digital music service that gives you access to millions of songs and podcasts.",
-    "size": 250,
-    "reviews": 800000,
-    "ratingAvg": 4.6,
-    "downloads": 1000000000,
-    "ratings": [
-      {"name": "1 star", "count": 5000},
-      {"name": "2 star", "count": 10000},
-      {"name": "3 star", "count": 15000},
-      {"name": "4 star", "count": 100000},
-      {"name": "5 star", "count": 670000}
-    ]
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Zoom_Communications_Logo.svg",
-    "title": "Zoom Cloud Meetings",
-    "companyName": "Zoom Video Communications",
-    "id": 11,
-    "description": "A video conferencing app that offers video meetings, webinars, and collaboration tools.",
+    "description": "LinkedIn is a professional networking platform that helps people connect, share industry news, and find job opportunities.",
     "size": 200,
-    "reviews": 400000,
-    "ratingAvg": 4.2,
-    "downloads": 500000000,
+    "reviews": "300K",
+    "ratingAvg": 4.3,
+    "downloads": "1B",
     "ratings": [
-      {"name": "1 star", "count": 10000},
-      {"name": "2 star", "count": 15000},
-      {"name": "3 star", "count": 25000},
-      {"name": "4 star", "count": 100000},
-      {"name": "5 star", "count": 300000}
+      { "name": "1 star", "count": 4000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 10000 },
+      { "name": "4 star", "count": 60000 },
+      { "name": "5 star", "count": 230000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Pinterest-logo.png",
+    "title": "Pinterest: Discover & Share Ideas",
+    "companyName": "Pinterest Inc.",
+    "id": 10,
+    "description": "Pinterest allows users to discover and save creative ideas for home, fashion, recipes, and more through pins and boards.",
+    "size": 150,
+    "reviews": "250K",
+    "ratingAvg": 4.5,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 4000 },
+      { "name": "3 star", "count": 8000 },
+      { "name": "4 star", "count": 40000 },
+      { "name": "5 star", "count": 200000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/42/Youtube_icon.png",
+    "title": "YouTube: Watch & Share Videos",
+    "companyName": "Google LLC",
+    "id": 11,
+    "description": "YouTube allows users to watch, upload, and share videos on a variety of topics including entertainment, education, and news.",
+    "size": 300,
+    "reviews": "1.2M",
+    "ratingAvg": 4.6,
+    "downloads": "10B",
+    "ratings": [
+      { "name": "1 star", "count": 15000 },
+      { "name": "2 star", "count": 20000 },
+      { "name": "3 star", "count": 40000 },
+      { "name": "4 star", "count": 200000 },
+      { "name": "5 star", "count": 900000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Reddit_logo.png",
+    "title": "Reddit: News & Community",
+    "companyName": "Reddit Inc.",
+    "id": 12,
+    "description": "Reddit is a community platform where users can discuss topics, share content, and vote on posts across thousands of subreddits.",
+    "size": 180,
+    "reviews": "400K",
+    "ratingAvg": 4.4,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 8000 },
+      { "name": "2 star", "count": 10000 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 100000 },
+      { "name": "5 star", "count": 280000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/32/Skype_logo.png",
+    "title": "Skype: Video & Voice Call",
+    "companyName": "Microsoft",
+    "id": 13,
+    "description": "Skype allows users to make video and voice calls, send messages, and share files across devices.",
+    "size": 200,
+    "reviews": "500K",
+    "ratingAvg": 4.2,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 7000 },
+      { "name": "2 star", "count": 10000 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 100000 },
+      { "name": "5 star", "count": 280000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Zoom_Communications_Logo.svg",
+    "title": "Zoom: Video Meetings",
+    "companyName": "Zoom Video Communications",
+    "id": 14,
+    "description": "Zoom is a video conferencing tool that allows online meetings, webinars, and chat with real-time collaboration features.",
+    "size": 220,
+    "reviews": "600K",
+    "ratingAvg": 4.3,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 8000 },
+      { "name": "2 star", "count": 10000 },
+      { "name": "3 star", "count": 20000 },
+      { "name": "4 star", "count": 120000 },
+      { "name": "5 star", "count": 280000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Discord_logo.svg",
+    "title": "Discord: Chat & Community",
+    "companyName": "Discord Inc.",
+    "id": 15,
+    "description": "Discord is a communication platform for communities, allowing chat, voice, video calls, and server-based organization for groups.",
+    "size": 180,
+    "reviews": "550K",
+    "ratingAvg": 4.5,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 6000 },
+      { "name": "2 star", "count": 8000 },
+      { "name": "3 star", "count": 12000 },
+      { "name": "4 star", "count": 60000 },
+      { "name": "5 star", "count": 374000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Clubhouse_App_icon.png",
+    "title": "Clubhouse: Voice Chat Rooms",
+    "companyName": "Alpha Exploration Co.",
+    "id": 16,
+    "description": "Clubhouse is an audio-based social networking app where users can join live discussions, chat rooms, and networking sessions.",
+    "size": 160,
+    "reviews": "200K",
+    "ratingAvg": 4.2,
+    "downloads": "200M",
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 4000 },
+      { "name": "3 star", "count": 6000 },
+      { "name": "4 star", "count": 25000 },
+      { "name": "5 star", "count": 162000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Google_Meet_icon.png",
+    "title": "Google Meet: Video Conferencing",
+    "companyName": "Google LLC",
+    "id": 17,
+    "description": "Google Meet provides secure video conferencing for business and personal use, with real-time collaboration and screen sharing.",
+    "size": 200,
+    "reviews": "350K",
+    "ratingAvg": 4.4,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 4000 },
+      { "name": "2 star", "count": 6000 },
+      { "name": "3 star", "count": 10000 },
+      { "name": "4 star", "count": 60000 },
+      { "name": "5 star", "count": 280000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/37/Microsoft_Teams_logo.svg",
+    "title": "Microsoft Teams: Collaboration & Chat",
+    "companyName": "Microsoft",
+    "id": 18,
+    "description": "Microsoft Teams is a collaboration platform combining chat, video meetings, file storage, and app integration for workplaces.",
+    "size": 250,
+    "reviews": "450K",
+    "ratingAvg": 4.3,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 5000 },
+      { "name": "2 star", "count": 7000 },
+      { "name": "3 star", "count": 12000 },
+      { "name": "4 star", "count": 90000 },
+      { "name": "5 star", "count": 320000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/76/Slack_Icon.png",
+    "title": "Slack: Team Messaging & Collaboration",
+    "companyName": "Slack Technologies",
+    "id": 19,
+    "description": "Slack is a business communication platform for team collaboration, featuring messaging, file sharing, and workflow automation.",
+    "size": 200,
+    "reviews": "500K",
+    "ratingAvg": 4.5,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 6000 },
+      { "name": "2 star", "count": 8000 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 90000 },
+      { "name": "5 star", "count": 332000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Spotify_icon.png",
+    "title": "Spotify: Music & Podcasts",
+    "companyName": "Spotify Ltd.",
+    "id": 20,
+    "description": "Spotify is a digital music and podcast streaming service providing access to millions of tracks and personalized playlists.",
+    "size": 180,
+    "reviews": "1M",
+    "ratingAvg": 4.6,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 10000 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "3 star", "count": 25000 },
+      { "name": "4 star", "count": 200000 },
+      { "name": "5 star", "count": 750000 }
     ]
   }
 ]

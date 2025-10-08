@@ -9,7 +9,7 @@ const MainLayout = () => {
     const navigation = useNavigation();
 
     const isNavigating = navigation.state
-    console.log(isNavigating);
+
     
     
     
