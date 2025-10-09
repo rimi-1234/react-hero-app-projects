@@ -21,7 +21,7 @@ const AppCard = ({ app }) => {
                 </figure>
                 <h1 className='py-4  text-gray-600 font-bold'>{title}</h1>
                 <div className='flex justify-between '>
-                    <p className='p-2 text-[#00D390] rounded-sm bg-[#F1F5E8] flex gap-1 '>  <ArrowDownToLine />{downloads}</p>
+                    <p className='p-2 text-[#00D390] rounded-sm bg-[#F1F5E8] flex gap-1 '>  <ArrowDownToLine />{downloads}M</p>
                     <p className='p-2 text-[#FF8811] bg-[#FFF0E1] flex gap-1'>
                         <Star stroke="#FF8811" fill="#FF8811" /> {ratingAvg}
                     </p>

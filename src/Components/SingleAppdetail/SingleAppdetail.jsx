@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router';
+import { useNavigate, useParams } from 'react-router';
 import useApp from '../../hooks/useApp';
 import LoadingSpinner from '../LoadingSpinner/LoadingSpinner';
 import { ArrowDownToLine, Star, ThumbsUp } from 'lucide-react';
 import "./SingleAppdetail.css"
 import { ToastContainer, toast } from 'react-toastify';
+import errorImg from '../../assets/App-Error.png'
 import {
     ComposedChart,
     Line,
@@ -18,12 +19,13 @@ import {
     ResponsiveContainer,
 } from 'recharts';
 import { addtoAppList } from '../../Utility/addToDb';
-import ErrorPages from '../../Pages/ErrorPages/ErrorPages';
+
 
 const SingleAppdetail = () => {
 
 
     const { id } = useParams();
+    let navigate = useNavigate();
     const { apps, loading } = useApp();
     const [isActiveApplist, setIsActiveApplist] = useState(false);
     const [isInstall, setIsInstall] = useState(false);
@@ -61,7 +63,7 @@ useEffect(() => {
         console.log(isActiveApplist);
         
         if(!isInstall){
-            toast("Installed");
+            toast("Success Installed");
             setIsInstall(true);
             setIsActiveApplist(true)
         }
@@ -79,7 +81,16 @@ useEffect(() => {
      if (!appsData) {
     return (
      <>
-     <ErrorPages></ErrorPages>
+      <div className="flex flex-col items-center justify-center h-screen text-center">
+                <img
+                    src={errorImg}  // your error image in `public/` folder
+                    alt="Error"
+                    className="w-96 h-96 mb-6"
+                />
+                <h2 className="text-5xl font-bold  mb-2">Oops, page not found!</h2>
+                <p className="text-gray-500 text-xl py-2">The page you are looking for is not available.</p>
+                <button onClick={() => navigate(-1)} className="btn mr-3 mt-3 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white"><span></span>Go Back!</button>
+            </div>
      </>
     );
   }
@@ -103,7 +114,7 @@ useEffect(() => {
                                 <div>
                                     <ArrowDownToLine className='text-[#00D390]' />
                                     <h1 className='text-[11px] text-gray-500 my-2'>Downloads</h1>
-                                    <h1 className='text-2xl font-extrabold'>{downloads}</h1>
+                                    <h1 className='text-2xl font-extrabold'>{downloads}M</h1>
                                 </div>
                                 <div>
                                     <Star stroke="#FF8811" fill="#FF8811" />
@@ -121,7 +132,7 @@ useEffect(() => {
                                     </div>
                                     <h1 className='text-[11px] text-gray-500  mb-2'>Total Reviews</h1>
 
-                                    <h1 className='text-2xl font-extrabold'>{reviews}</h1>
+                                    <h1 className='text-2xl font-extrabold'>{reviews}K</h1>
                                 </div>
 
                             </div>

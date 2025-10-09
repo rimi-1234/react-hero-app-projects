@@ -85,7 +85,7 @@ const Apps = () => {
                 <LoadingSpinner />
             ) : searchedApps.length === 0 ? (
                 <div className='flex justify-center items-center h-[calc(100vh-400px)]'>
-                    <h1 className='text-5xl font-bold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent '>NO data found</h1>
+                    <h1 className='text-5xl font-bold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent '>No App Found</h1>
                 </div>
             ) : (
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mx-10 pb-10">

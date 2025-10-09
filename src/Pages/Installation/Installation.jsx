@@ -1,18 +1,20 @@
 import React, { useState } from 'react';
 import { getStoredApp, removeFromAppList } from '../../Utility/addToDb';
 import { ArrowDownToLine, Star } from 'lucide-react';
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css'
 
 const Installation = () => {
     const [applist, setApplist] = useState(() => getStoredApp())
     const [sortOrder, setSortOrder] = useState('none')
 
-   
+
 
     const sortedItem = (() => {
         if (sortOrder === 'size-asc') {
-            return [...applist].sort((a, b) => a.size - b.size)
+            return [...applist].sort((a, b) => a.downloads - b.downloads)
         } else if (sortOrder === 'size-desc') {
-            return [...applist].sort((a, b) => b.size - a.size)
+            return [...applist].sort((a, b) => b.downloads - a.downloads)
         } else {
             return applist
         }
@@ -20,6 +22,7 @@ const Installation = () => {
     const handleRemove = id => {
         // remove from localstorage
         removeFromAppList(id)
+        toast("Uninstalled!");
         // for ui instant update
         setApplist(prev => prev.filter(p => p.id !== id))
     }
@@ -44,7 +47,7 @@ const Installation = () => {
                                 </span>
                             </h1>
                         </div>
-                        
+
                         <div className='' >
                             <label className='form-control w-full max-w-xs '>
                                 <select className='select select-bordered bg-base-200' value={sortOrder}
@@ -60,51 +63,57 @@ const Installation = () => {
                     </div>
                     <div className='space-y-4 mx-10 mb-20'>
                         {sortedItem.length === 0 ? (
-                <div className='flex justify-center items-center h-[calc(100vh-400px)]'>
-                    <h1 className='text-5xl font-bold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent '>NO data found</h1>
-                </div>):(sortedItem.map(p => (
-                            <div key={p.id} className='card border-none card-side bg-base-100 shadow border p-4'>
-                                <div className='flex gap-4'>
+                            <div className='flex justify-center items-center h-[calc(100vh-400px)]'>
+                                <h1 className='text-5xl font-bold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent '>NO Installed data found</h1>
+                            </div>) : (sortedItem.map(p => (
+                                <div key={p.id} className='card border-none card-side bg-base-100 shadow border p-4'>
+                                    <div className='flex gap-4'>
 
-                                    <figure className='p-4 bg-base-200'>
-                                        <img
-                                            className='w-10 h-10 object-cover'
-                                            src={p.image}
-                                            alt={p.name}
-                                        />
-                                    </figure>
-                                    <div>
+                                        <figure className='p-4 bg-base-200'>
+                                            <img
+                                                className='w-10 h-10 object-cover'
+                                                src={p.image}
+                                                alt={p.name}
+                                            />
+                                        </figure>
+                                        <div>
 
-                                        <h3 className='font-bold'>{p.title}</h3>
-                                        <div className='flex gap-4 py-3 items-center '>
-                                            <p className=' text-[#00D390]  flex gap-1 '>  <ArrowDownToLine />{p.downloads}</p>
-                                            <p className='text-[#FF8811]  flex gap-1'>
-                                                <Star stroke="#FF8811" fill="#FF8811" /> {p.ratingAvg}
-                                            </p>
-                                            <h1 className=' text-gray-500  '>{p.size} MB</h1>
+                                            <h3 className='font-bold'>{p.title}</h3>
+                                            <div className='flex gap-4 py-3 items-center '>
+                                                <p className=' text-[#00D390]  flex gap-1 '>  <ArrowDownToLine />{p.downloads}M</p>
+                                                <p className='text-[#FF8811]  flex gap-1'>
+                                                    <Star stroke="#FF8811" fill="#FF8811" /> {p.ratingAvg}
+                                                </p>
+                                                <h1 className=' text-gray-500  '>{p.size} MB</h1>
+
+                                            </div>
 
                                         </div>
+                                    </div>
+                                    <div className='card-body'>
+
+                                    </div>
+                                    <div className=' pr-4 flex items-center gap-3'>
+
+                                        <button
+                                            onClick={() => handleRemove(p.id)}
+
+                                            className="mt-5 mr-3 bg-[#00D390] text-white px-4 py-2 rounded-lg"
+                                        >
+                                            Uninstall
+                                        </button>
+
 
                                     </div>
                                 </div>
-                                <div className='card-body'>
-
-                                </div>
-                                <div className=' pr-4 flex items-center gap-3'>
-
-                                    <button
-                                        onClick={() => handleRemove(p.id)}
-
-                                        className="mt-5 mr-3 bg-[#00D390] text-white px-4 py-2 rounded-lg"
-                                    >
-                                        Uninstall
-                                    </button>
-                                </div>
-                            </div>
-                        )))}
+                            )))}
                     </div>
                 </div>
             </div>
+            {/* ✅ Toast container here */}
+            <ToastContainer
+                
+            />
         </div>
     );
 };

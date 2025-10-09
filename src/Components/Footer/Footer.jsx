@@ -18,11 +18,11 @@ const Footer = () => {
                         className="fill-current">
 
                     </svg>
-                    <p className='flex gap-2'>
+                    <div className='flex gap-2'>
                         <img src={logo} alt="Logo" className="h-10 " />  <h2 className="text-xl ml-2 font-bold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
                             HERO.IO
                         </h2>
-                    </p>
+                    </div>
                 </aside>
                 <nav>
                     <h6 className="footer-title">Social</h6>

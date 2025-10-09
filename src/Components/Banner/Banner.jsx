@@ -29,21 +29,21 @@ const Banner = () => {
                 <div className="hero-content    ">
                     <div className="max-w-[1400px] text-center">
                         <p className='text-white text-2xl text-center'>Trusted by Millions, Built for You</p>
-                        <div className='grid grid-cols-3 gap-6 '>
+                        <div className='grid grid-cols-3 gap-6  mt-4'>
                             <div>
-                                <h1 className='text-[11px] text-gray-500'>Total Downloads</h1>
-                                 <p className='text-white text-3xl font-bold'>29.6M</p>
-                                 <h1 className='text-[11px] text-gray-500'>21% more than last month</h1>
+                                <h1 className='text-[11px] text-gray-300'>Total Downloads</h1>
+                                 <p className='text-white text-3xl font-bold my-3'>29.6M</p>
+                                 <h1 className='text-[11px] text-gray-300'>21% more than last month</h1>
                             </div>
                             <div>
-                                <h1 className='text-[11px] text-gray-500'>Total Downloads</h1>
-                                 <p className='text-white text-3xl font-bold'>29.6M</p>
-                                 <h1 className='text-[11px] text-gray-500'>21% more than last month</h1>
+                                <h1 className='text-[11px] text-gray-300'>Total Reviews</h1>
+                                 <p className='text-white text-3xl font-bold  my-3'>906K</p>
+                                 <h1 className='text-[11px] text-gray-300'>46% more than last month</h1>
                             </div>
                             <div>
-                                <h1 className='text-[11px] text-gray-500'>Total Downloads</h1>
-                                 <p className='text-white text-3xl font-bold'>29.6M</p>
-                                 <h1 className='text-[11px] text-gray-500'>21% more than last month</h1>
+                                <h1 className='text-[11px] text-gray-300'>Active Apps</h1>
+                                 <p className='text-white text-3xl font-bold  my-3'>132+</p>
+                                 <h1 className='text-[11px] text-gray-300'>31 more will Launch</h1>
                             </div>
 
                         </div>

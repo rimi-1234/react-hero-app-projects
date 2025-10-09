@@ -3,6 +3,8 @@ import Navbar from '../../Components/Navbar/Navbar';
 import { Outlet, useNavigation } from 'react-router';
 import LoadingSpinner from '../../Components/LoadingSpinner/LoadingSpinner';
 import Footer from '../../Components/Footer/Footer';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css'
 
 
 const MainLayout = () => {
@@ -22,6 +24,7 @@ const MainLayout = () => {
                   {isNavigating==='loading' ? <LoadingSpinner /> : <Outlet />}
                
             </div>
+           < ToastContainer/>
             <Footer />
         </div>
     );
