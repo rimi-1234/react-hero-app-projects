@@ -1,18 +1,29 @@
 import React, { useState } from 'react';
-import { getStoredApp } from '../../Utility/addToDb';
+import { getStoredApp, removeFromAppList } from '../../Utility/addToDb';
 import { ArrowDownToLine, Star } from 'lucide-react';
 
 const Installation = () => {
-    const [wishlist, setWishlist] = useState(() => getStoredApp())
-    console.log(wishlist);
-    //    "title": "Slack: Team Messaging & Collaboration",
-    //     "companyName": "Slack Technologies",
-    //     "id": 19,
-    //     "description": "Slack is a business communication platform.\nSupports messaging in channels.\nDirect messaging for team members.\nFile sharing and storage.\nWorkflow automation through apps and bots.\nIntegration with third-party tools.\nVideo and voice calls within channels.\nCustomizable notifications.\nThreaded conversations for organization.\nSearch functionality to find messages and files.\nDark mode available.\nAnalytics for team communication.\nApp available on multiple platforms.\nSecurity and encryption supported.\nEmoji reactions and custom emojis.\nPinned messages for important info.\nBookmarking and saved items.\nGuest access for external collaborators.\nScheduled reminders for tasks.\nRegular updates improve usability and security.",
-    //     "size": 200,
-    //     "reviews": "500K",
-    //     "ratingAvg": 4.5,
-    //     "downloads": "500M",
+    const [applist, setApplist] = useState(() => getStoredApp())
+    const [sortOrder, setSortOrder] = useState('none')
+
+   
+
+    const sortedItem = (() => {
+        if (sortOrder === 'size-asc') {
+            return [...applist].sort((a, b) => a.size - b.size)
+        } else if (sortOrder === 'size-desc') {
+            return [...applist].sort((a, b) => b.size - a.size)
+        } else {
+            return applist
+        }
+    })()
+    const handleRemove = id => {
+        // remove from localstorage
+        removeFromAppList(id)
+        // for ui instant update
+        setApplist(prev => prev.filter(p => p.id !== id))
+    }
+
     return (
         <div className='mx-12'>
             <div className='text-center mt-10  mb-4'>
@@ -29,16 +40,18 @@ const Installation = () => {
                             <h1 className='text-3xl font-semibold'>
                                 All Apps{' '}
                                 <span className='text-sm text-gray-500'>
-                                    ({wishlist.length}) Apps Found.
+                                    ({sortedItem.length}) Apps Found.
                                 </span>
                             </h1>
                         </div>
+                        
                         <div className='' >
                             <label className='form-control w-full max-w-xs '>
-                                <select className='select select-bordered bg-base-200'>
-                                    <option value='none'>Sort by price</option>
-                                    <option value='price-asc'>Low → High</option>
-                                    <option value='price-desc'>High → Low</option>
+                                <select className='select select-bordered bg-base-200' value={sortOrder}
+                                    onChange={e => setSortOrder(e.target.value)}>
+                                    <option value='none'>Sort by Size</option>
+                                    <option value='size-asc'>Low → High</option>
+                                    <option value='size-desc'>High → Low</option>
                                 </select>
 
                             </label>
@@ -46,7 +59,10 @@ const Installation = () => {
 
                     </div>
                     <div className='space-y-4 mx-10 mb-20'>
-                        {wishlist.map(p => (
+                        {sortedItem.length === 0 ? (
+                <div className='flex justify-center items-center h-[calc(100vh-400px)]'>
+                    <h1 className='text-5xl font-bold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent '>NO data found</h1>
+                </div>):(sortedItem.map(p => (
                             <div key={p.id} className='card border-none card-side bg-base-100 shadow border p-4'>
                                 <div className='flex gap-4'>
 
@@ -72,19 +88,20 @@ const Installation = () => {
                                     </div>
                                 </div>
                                 <div className='card-body'>
-                                    
+
                                 </div>
                                 <div className=' pr-4 flex items-center gap-3'>
-                                
+
                                     <button
+                                        onClick={() => handleRemove(p.id)}
 
                                         className="mt-5 mr-3 bg-[#00D390] text-white px-4 py-2 rounded-lg"
                                     >
-                                           Uninstall
+                                        Uninstall
                                     </button>
                                 </div>
                             </div>
-                        ))}
+                        )))}
                     </div>
                 </div>
             </div>

@@ -14,18 +14,18 @@ export const getStoredApp = () => {
 
 }
 
-export const addtoAppList = (apps,setIsInstall) => {
+export const addtoAppList = (apps, setIsInstall) => {
 
     const storedAppData = getStoredApp();
-    
 
-    
-     const isDuplicate = storedAppData.some(b => b.id === apps.id);
-     
-    
+
+
+    const isDuplicate = storedAppData.some(b => b.id === apps.id);
+
+
     if (isDuplicate) {
         toast("App Already Exit!");
-        setIsInstall(true);
+      
         return;
     }
     storedAppData.push(apps);
@@ -35,4 +35,15 @@ export const addtoAppList = (apps,setIsInstall) => {
 
 
 
+}
+export const removeFromAppList = id => {
+    const appList = getStoredApp()
+    try {
+        const updatedAppList = appList.filter(p => p.id !== id)
+        localStorage.setItem('InstallList', JSON.stringify(updatedAppList))
+        localStorage.setItem(`applist-${id}`, false);
+        localStorage.setItem(`isInstall-${id}`, false);
+    } catch (err) {
+        console.log(err)
+    }
 }

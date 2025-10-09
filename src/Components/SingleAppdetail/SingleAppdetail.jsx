@@ -34,20 +34,14 @@ const SingleAppdetail = () => {
     const { image, title, downloads, ratingAvg, companyName, reviews, size, ratings = [], description } = appsData || {};
 
     // Initialize state correctly with this app's ratings
+useEffect(() => {
+  const appState = localStorage.getItem(`applist-${id}`);
+  setIsInstall(appState === 'true'); // convert string to boolean if stored that way
+}, [id]);
 
-    useEffect(() => {
-        const appState = localStorage.getItem(`applist-${id}`);
-       
-
-        if (appState) setIsActiveApplist(true);
-        const appStateIstall = localStorage.getItem(`isInstall-${id}`);
-       
-
-        if (appStateIstall) setIsInstall(true);
-        
-
-
-    }, [id]);
+useEffect(() => {
+  console.log(isInstall); // logs after state actually changes
+}, [isInstall]);
     useEffect(() => {
         if (ratings.length > 0) {
             setRatings(ratings);
@@ -63,6 +57,8 @@ const SingleAppdetail = () => {
 
 
     const handleInstall = (appsData) => {
+        console.log(isActiveApplist);
+        
         if(!isInstall){
             toast("Installed");
             setIsInstall(true);
@@ -127,7 +123,7 @@ const SingleAppdetail = () => {
                                 onClick={() => handleInstall(appsData)}
                                 className="mt-5 mr-3 bg-[#00D390] text-white px-4 py-2 rounded-lg"
                             >
-                                {isActiveApplist ? "Installed" : `Install Now (${size} MB)`}
+                                {isInstall ? "Installed" : `Install Now (${size} MB)`}
                             </button>
 
                             <ToastContainer />
