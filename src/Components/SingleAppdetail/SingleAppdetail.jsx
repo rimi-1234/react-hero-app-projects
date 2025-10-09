@@ -159,6 +159,7 @@ useEffect(() => {
                             >
                                 {isInstall ? "Installed" : `Install Now (${size} MB)`}
                             </button>
+                            <ToastContainer></ToastContainer>
 
                             
 
