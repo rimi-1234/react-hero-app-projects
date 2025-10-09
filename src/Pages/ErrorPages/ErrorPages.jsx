@@ -1,10 +1,29 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import errorImg from '../../assets/error-404.png'
 import { useNavigate } from 'react-router';
+import { useState } from 'react';
+import LoadingSpinner from '../../Components/LoadingSpinner/LoadingSpinner';
+
 const ErrorPages = () => {
-      let navigate = useNavigate();
+    let navigate = useNavigate();
+    const [loading, setLoading] = useState(true);
+
+
+    useEffect(() => {
+        // Simulate a short loading time
+        const timer = setTimeout(() => setLoading(false), 1000);
+        return () => clearTimeout(timer);
+    }, []);
+
+
+    if (loading) {
+        return (
+            <LoadingSpinner></LoadingSpinner>
+        );
+    }
+
     return (
-     <div className="flex flex-col items-center justify-center h-screen text-center">
+        <div className="flex flex-col items-center justify-center h-screen text-center">
             <img
                 src={errorImg}  // your error image in `public/` folder
                 alt="Error"
