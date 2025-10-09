@@ -37,14 +37,14 @@ const SingleAppdetail = () => {
     const { image, title, downloads, ratingAvg, companyName, reviews, size, ratings = [], description } = appsData || {};
     const [loadingErrorpages, setLoading] = useState(true);
 
-    // Initialize state correctly with this app's ratings
+
 useEffect(() => {
   const appState = localStorage.getItem(`applist-${id}`);
-  setIsInstall(appState === 'true'); // convert string to boolean if stored that way
+  setIsInstall(appState === 'true'); 
 }, [id]);
 
 useEffect(() => {
-  // logs after state actually changes
+  
 }, [isInstall]);
     useEffect(() => {
         if (ratings.length > 0) {
@@ -52,7 +52,7 @@ useEffect(() => {
         }
     }, [ratings]);
 
-    // Sort ratings descending
+  
     const sortedRatings = [...sortRatings].sort((a, b) => {
         const starA = parseInt(a.name);
         const starB = parseInt(b.name);
@@ -61,7 +61,7 @@ useEffect(() => {
 
 
     useEffect(() => {
-        // Simulate a short loading time
+       
         const timer = setTimeout(() => setLoading(false), 1000);
         return () => clearTimeout(timer);
     }, []);
@@ -114,30 +114,30 @@ useEffect(() => {
 
     return (
         <>
-            <div className="  items-start my-4 mt-16  mx-20">
+            <div className="  items-start my-4 mt-16  md:mx-20">
                 <div className=" flex  bg-base-200   gap-12 items-start flex-col lg:flex-row-reverse">
-                    <div className='flex-[75%] h-full'>
+                    <div className=' w-full md:flex-[75%] h-full'>
 
                         <div className="text-center lg:text-left">
-                            <h1 className="text-3xl font-bold">{title}</h1>
-                            <p className="py-4 ">
+                            <h1 className="text-xl md:text-3xl font-bold">{title}</h1>
+                            <p className="md:py-4 ">
                                 <span className="font-semibold">Book by:</span> <span className=' bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent'> {companyName}</span>
                             </p>
                             <div className='border-t-1 text-gray-200 border-dashed my-3 '></div>
 
-                            <div className='grid grid-cols-3 pt-3 w-[400px]  gap-3 '>
-                                <div>
+                            <div className='grid grid-cols-3 pt-3 w-full md:w-[400px]  gap-3 '>
+                                <div className='flex flex-col items-center md:items-start'>
                                     <ArrowDownToLine className='text-[#00D390]' />
                                     <h1 className='text-[11px] text-gray-500 my-2'>Downloads</h1>
                                     <h1 className='text-2xl font-extrabold'>{downloads}M</h1>
                                 </div>
-                                <div>
+                                <div className='flex flex-col items-center md:items-start'>
                                     <Star stroke="#FF8811" fill="#FF8811" />
                                     <h1 className='text-[11px] text-gray-500 my-2'>Average Ratings</h1>
 
                                     <h1 className='text-2xl font-extrabold'>{ratingAvg}</h1>
                                 </div>
-                                <div>
+                                <div className='flex flex-col items-center md:items-start'>
                                     <div className="relative w-8 h-8 -top-2 ">
                                         <div className='p-4 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] px-6 rounded-md'>
 

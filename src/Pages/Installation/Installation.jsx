@@ -20,10 +20,9 @@ const Installation = () => {
         }
     })()
     const handleRemove = id => {
-        // remove from localstorage
+   
         removeFromAppList(id)
         toast("Uninstalled!");
-        // for ui instant update
         setApplist(prev => prev.filter(p => p.id !== id))
     }
 
@@ -61,12 +60,12 @@ const Installation = () => {
                         </div>
 
                     </div>
-                    <div className='space-y-4 mx-10 mb-20'>
+                    <div className='space-y-4 md:mx-10 mb-20'>
                         {sortedItem.length === 0 ? (
                             <div className='flex justify-center items-center h-[calc(100vh-400px)]'>
                                 <h1 className='text-5xl font-bold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent '>NO Installed data found</h1>
                             </div>) : (sortedItem.map(p => (
-                                <div key={p.id} className='card border-none card-side bg-base-100 shadow border p-4'>
+                                <div key={p.id} className='card flex-col md:flex-row border-none card-side bg-base-100 shadow border p-4'>
                                     <div className='flex gap-4'>
 
                                         <figure className='p-4 bg-base-200'>
@@ -90,15 +89,15 @@ const Installation = () => {
 
                                         </div>
                                     </div>
-                                    <div className='card-body'>
+                                    <div className='md:card-body'>
 
                                     </div>
-                                    <div className=' pr-4 flex items-center gap-3'>
+                                    <div className=' pr-0 md:pr-4 flex items-center gap-3'>
 
                                         <button
                                             onClick={() => handleRemove(p.id)}
 
-                                            className="mt-5 mr-3 bg-[#00D390] text-white px-4 py-2 rounded-lg"
+                                            className="mt-5 md:mr-3 bg-[#00D390] text-white px-4 py-2 rounded-lg w-full"
                                         >
                                             Uninstall
                                         </button>
@@ -110,7 +109,7 @@ const Installation = () => {
                     </div>
                 </div>
             </div>
-            {/* ✅ Toast container here */}
+       
             <ToastContainer
                 
             />
