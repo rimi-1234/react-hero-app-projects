@@ -19,7 +19,7 @@ const Banner = () => {
                             <button className="btn "><img className='w-5 h-5' src={googlePlay} alt="" />Google Play</button>
                         </Link>
                         <Link to='https://www.apple.com/app-store/'>
-                            <button className="btn ml-4"><img className='w-5 h-5' src={appStore} alt=""  /> Get Started</button>
+                            <button className="btn ml-4"><img className='w-5 h-5' src={appStore} alt=""  /> App Store</button>
                         </Link>
                         <img className='mt-7' src={hero} alt="" />
                     </div>

@@ -6,12 +6,14 @@ import Apps from '../Pages/Apps/Apps';
 import LoadingSpinner from '../Components/LoadingSpinner/LoadingSpinner';
 import SingleAppdetail from '../Components/SingleAppdetail/SingleAppdetail';
 import Installation from '../Pages/Installation/Installation';
+import ErrorPages from '../Pages/ErrorPages/ErrorPages';
 
 export const router = createBrowserRouter([
     {
         path: "/",
         Component: MainLayout,
         hydrateFallbackElement: <LoadingSpinner />,
+        errorElement: <ErrorPages></ErrorPages>,
 
 
 
@@ -51,11 +53,12 @@ export const router = createBrowserRouter([
 
                 path: "/apps/:id",
                 Component: SingleAppdetail,
-                 loader: async () => {
+                
+                loader: async () => {
                     await new Promise(r => setTimeout(r, 1000)); // simulate async delay
                     return null;
                 },
-         
+
 
             },
 

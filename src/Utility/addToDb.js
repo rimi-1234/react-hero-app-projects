@@ -14,7 +14,7 @@ export const getStoredApp = () => {
 
 }
 
-export const addtoAppList = (apps, setIsInstall) => {
+export const addtoAppList = (apps) => {
 
     const storedAppData = getStoredApp();
 

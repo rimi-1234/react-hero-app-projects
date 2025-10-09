@@ -18,6 +18,7 @@ import {
     ResponsiveContainer,
 } from 'recharts';
 import { addtoAppList } from '../../Utility/addToDb';
+import ErrorPages from '../../Pages/ErrorPages/ErrorPages';
 
 const SingleAppdetail = () => {
 
@@ -40,7 +41,7 @@ useEffect(() => {
 }, [id]);
 
 useEffect(() => {
-  console.log(isInstall); // logs after state actually changes
+  // logs after state actually changes
 }, [isInstall]);
     useEffect(() => {
         if (ratings.length > 0) {
@@ -75,6 +76,13 @@ useEffect(() => {
     if (loading) return <LoadingSpinner></LoadingSpinner>;
 
 
+     if (!appsData) {
+    return (
+     <>
+     <ErrorPages></ErrorPages>
+     </>
+    );
+  }
 
 
 
