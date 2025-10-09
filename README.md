@@ -1,6 +1,6 @@
-- App name
+- App name:
 Hero.iApp
-- Description
+- Description:
  This project is a fully functional App Store Web Application built with React, designed to showcase, explore, and manage apps interactively. It features a clean, responsive layout with intuitive navigation and localStorage integration for user interaction. The Header section includes a clickable logo that redirects users to the home page, a navigation bar with active route highlighting for smooth browsing across “Home,” “Apps,” and “Installation” pages, and a Contribution button linking to the developer’s GitHub profile. The Footer is uniquely styled to enhance the overall user experience.The Home Page features a central banner with a heading, description, and two action buttons — one redirecting to the App Store and the other to the Play Store. It also includes a States Section with three informative cards and a Top Apps Section displaying eight popular apps in a four-column layout. Each app card shows its title, image, downloads, and average rating. Clicking on any card navigates to the App Details Page, and a “Show All” button allows users to view every available app on the All Apps Page.
 
 The All Apps Page provides a title and subtitle, followed by a live search bar with case-insensitive filtering that updates results dynamically. It shows all apps as cards, and if no match is found, a clear “No App Found” message is displayed.
