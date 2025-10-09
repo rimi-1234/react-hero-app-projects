@@ -1,16 +1,50 @@
-# React + Vite
+- App name
+Hero.iApp
+- Description
+ This project is a fully functional App Store Web Application built with React, designed to showcase, explore, and manage apps interactively. It features a clean, responsive layout with intuitive navigation and localStorage integration for user interaction. The Header section includes a clickable logo that redirects users to the home page, a navigation bar with active route highlighting for smooth browsing across “Home,” “Apps,” and “Installation” pages, and a Contribution button linking to the developer’s GitHub profile. The Footer is uniquely styled to enhance the overall user experience.The Home Page features a central banner with a heading, description, and two action buttons — one redirecting to the App Store and the other to the Play Store. It also includes a States Section with three informative cards and a Top Apps Section displaying eight popular apps in a four-column layout. Each app card shows its title, image, downloads, and average rating. Clicking on any card navigates to the App Details Page, and a “Show All” button allows users to view every available app on the All Apps Page.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The All Apps Page provides a title and subtitle, followed by a live search bar with case-insensitive filtering that updates results dynamically. It shows all apps as cards, and if no match is found, a clear “No App Found” message is displayed.
 
-Currently, two official plugins are available:
+The App Details Page presents detailed app information — including image, title, rating, downloads, and reviews — alongside an Install button. When clicked, the button changes to “Installed,” becomes disabled, and triggers a success toast notification. App review data is visualized through a Recharts-based responsive chart, and a descriptive section elaborates on the app’s features.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+For invalid routes, a custom error page is shown. The website also includes loading animations during page navigation and search operations to ensure smooth transitions.
 
-## React Compiler
+The Challenge Feature introduces LocalStorage functionality, allowing users to install and uninstall apps. Installed apps are saved locally and displayed on a dedicated My Installation Page, which mirrors the Figma design. Each installed app card includes an Uninstall button to remove it from both the UI and LocalStorage, with a toast message confirming the action. Additionally, a Sort by Downloads dropdown enables sorting apps in ascending or descending order based on their download count.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🧰 Technologies Used
 
-## Expanding the ESLint configuration
+- Frontend Framework:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+React.js – for building a dynamic, component-based user interface.
+
+React Router DOM – for smooth navigation and route management.
+
+- UI & Styling:
+
+Tailwind CSS – for modern, responsive, and utility-first styling.
+
+Lucide React Icons – for using lightweight and elegant icons.
+
+Recharts – for creating responsive and interactive data visualization charts.
+
+- State & Data Management:
+
+LocalStorage API – for storing user-installed apps and maintaining state persistently.
+
+JSON Data – for structured app information (title, company, rating, etc.).
+
+- User Experience Enhancements:
+
+React Toastify – for displaying success and alert messages (e.g., app installation/uninstallation).
+
+Loading Animations – for smooth transitions during navigation and search operations.
+
+- Development & Tools:
+
+Vite – for fast React app bundling and development server.
+
+npm / Node.js – for managing project dependencies.
+
+Git & GitHub – for version control and project hosting.
+
+Figma – for UI/UX design reference and layout inspiration
