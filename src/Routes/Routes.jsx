@@ -5,6 +5,7 @@ import Home from '../Pages/Home/Home';
 import Apps from '../Pages/Apps/Apps';
 import LoadingSpinner from '../Components/LoadingSpinner/LoadingSpinner';
 import SingleAppdetail from '../Components/SingleAppdetail/SingleAppdetail';
+import Installation from '../Pages/Installation/Installation';
 
 export const router = createBrowserRouter([
     {
@@ -30,6 +31,16 @@ export const router = createBrowserRouter([
 
                 path: "/apps",
                 Component: Apps,
+                loader: async () => {
+                    await new Promise(r => setTimeout(r, 1000)); // simulate async delay
+                    return null;
+                },
+
+            },
+            {
+
+                path: "/installation",
+                Component: Installation,
                 loader: async () => {
                     await new Promise(r => setTimeout(r, 1000)); // simulate async delay
                     return null;

@@ -14,7 +14,7 @@ export const getStoredApp = () => {
 
 }
 
-export const addtoAppList = apps => {
+export const addtoAppList = (apps,setIsInstall) => {
 
     const storedAppData = getStoredApp();
     
@@ -24,8 +24,8 @@ export const addtoAppList = apps => {
      
     
     if (isDuplicate) {
-    
-          toast("App alredy exit!");
+        toast("App Already Exit!");
+        setIsInstall(true);
         return;
     }
     storedAppData.push(apps);

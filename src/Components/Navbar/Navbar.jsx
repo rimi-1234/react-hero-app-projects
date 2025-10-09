@@ -21,6 +21,14 @@ const Navbar = () => {
     >
         Apps
     </NavLink>
+      <NavLink
+        to="/installation"
+        className={({ isActive }) =>
+            isActive ?  "border-b-2 border-[#9F62F2]  bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent text-center ml-0 md:ml-4 mt-4 md:mt-0" :  "text-gray-700  text-center  md:ml-4  mt-4 md:mt-0"
+        }
+    >
+        Installation
+    </NavLink>
 
     </>
     return (
