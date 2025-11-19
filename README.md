@@ -4,6 +4,8 @@ A fully functional **App Store Web Application** built with **React.js**, design
 
 ---
 
+![Hero.iApp Screenshot](./assets/screenshot.png)
+
 ## 🖥 Key Pages & Features
 - **Home Page:**  
   Banner with action buttons for App Store & Play Store, States Section with info cards, and Top Apps Section with clickable app cards.  
