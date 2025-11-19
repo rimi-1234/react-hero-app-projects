@@ -33,6 +33,13 @@ A fully functional **App Store Web Application** built with **React.js**, design
 | **Development Tools** | VS Code, Git & GitHub |
 
 ---
+## 🌐 Live & Other Links
+
+[![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://react-hero-app-project-rimi-1234.netlify.app/)  
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-black?style=for-the-badge)](https://github.com/rimi-1234/react-hero-app-projects)
+
+
+---
 
 ## ✨ Features
 
@@ -84,13 +91,5 @@ Recharts – responsive, interactive charts
 React Toastify – toast notifications for actions
 
 ---
----
-## 🌐 Live & Other Links
-
-| Type | Link |
-|------|------|
-| Live Demo | [Hero.iApp Live](https://react-hero-app-project-rimi-1234.netlify.app/) |
-| GitHub Repository | [Hero.iApp Repo](https://github.com/rimi-1234/react-hero-app-projects) |
-
 
 
