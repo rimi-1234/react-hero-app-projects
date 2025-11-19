@@ -83,8 +83,14 @@ Recharts – responsive, interactive charts
 
 React Toastify – toast notifications for actions
 
-🌐 Live & Other Links
-Type	Link
-Live Demo	Hero.iApp Live
-GitHub Repository	Hero.iApp Repo
+---
+---
+## 🌐 Live & Other Links
+
+| Type | Link |
+|------|------|
+| Live Demo | [Hero.iApp Live](https://react-hero-app-project-rimi-1234.netlify.app/) |
+| GitHub Repository | [Hero.iApp Repo](https://github.com/rimi-1234/react-hero-app-projects) |
+
+
 
