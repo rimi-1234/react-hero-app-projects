@@ -4,7 +4,8 @@ A fully functional **App Store Web Application** built with **React.js**, design
 
 ---
 
-![Hero.iApp Screenshot](./assets/screenshot.png)
+![Hero.iApp Screenshot](https://raw.githubusercontent.com/rimi-1234/react-hero-app-projects/main/src/assets/Screenshot%20(10).png)
+
 
 ## 🖥 Key Pages & Features
 - **Home Page:**  
