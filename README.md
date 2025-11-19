@@ -38,8 +38,10 @@ A fully functional **App Store Web Application** built with **React.js**, design
 ---
 ## 🌐 Live & Other Links
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://react-hero-app-project-rimi-1234.netlify.app/)  
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-black?style=for-the-badge)](https://github.com/rimi-1234/react-hero-app-projects)
+[![Live Site](https://img.shields.io/badge/Live%20Site-Netlify-blue?style=for-the-badge)](https://rimi-trade-shift-1234.netlify.app/)
+[![Client Repo](https://img.shields.io/badge/GitHub-Client-black?style=for-the-badge)](https://github.com/rimi-1234/react-trade-shift-client)
+[![Server Repo](https://img.shields.io/badge/GitHub-Server-darkgreen?style=for-the-badge)](https://github.com/rimi-1234/react-trade-shift-server)
+
 
 
 ---
